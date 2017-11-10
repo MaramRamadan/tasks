@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true"
+         verbose="true"
+         StopOnFailure="false">
+    <testsuites>
+        <testsuite name="app">
+            <file>tests/unit/HotelTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
